@@ -1,0 +1,38 @@
+{
+  "name": "ayla-ws",
+  "version": "0.1.0",
+  "description": "Docpad website for www.aylaamaudruz.com. Based on bootstrap",
+  "homepage": "https://github.com/SAmaudruz/ayla-ws",
+  "keywords": [
+    "ayla amaudruz",
+    "docpad",
+    "website",
+    "boostrap"
+  ],
+  "author": "Stéphane Amaudruz <gautama108@gmail.com>",
+  "maintainers": [
+    "Stéphane Amaudruz <gautama108@gmail.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/SAmaudruz/ayla-ws/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SAmaudruz/ayla-ws.git"
+  },
+  "engines": {
+    "node": "0.10",
+    "npm": "1.3"
+  },
+  "dependencies": {
+    "docpad": ">=6.69.1",
+    "docpad-plugin-eco": ">=2.0.3",
+    "docpad-plugin-marked": "~2.2.1",
+    "docpad-plugin-partials": "~2.9.1"
+  },
+  "main": "node_modules/docpad/bin/docpad-server",
+  "scripts": {
+    "start": "node_modules/docpad/bin/docpad-server"
+  },
+  "devDependencies": {}
+}
