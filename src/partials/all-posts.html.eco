@@ -1,0 +1,65 @@
+---
+cacheable: true
+---
+
+<div class="container">
+
+  <div class="col-md-4">
+    <% index = 0 %>
+    <% for page in @getCollection("posts").toJSON() : %>
+    <% if (index % 3 == 0):%>
+
+    <article class="thumbnail">
+      <img src="http://placehold.it/200x150" alt="..." />
+      <div class="caption">
+        <h3><%= page.title %></h3>
+        <p>...</p>
+        <p><a href="<%= page.url %>" class="btn btn-primary" role="button">Lire >></a></p>
+      </div>
+    </article>
+
+    <% end %>
+    <% index++ %>
+    <% end %>
+  </div>
+
+  <div class="col-md-4">
+    <% index = 0 %>
+    <% for page in @getCollection("posts").toJSON() : %>
+    <% if (index % 3 == 1):%>
+
+    <article class="thumbnail">
+      <img src="http://placehold.it/200x150" alt="..." />
+      <div class="caption">
+        <h3><%= page.title %></h3>
+        <p>...</p>
+        <p><a href="<%= page.url %>" class="btn btn-primary" role="button">Lire >></a></p>
+      </div>
+    </article>
+
+    <% end %>
+    <% index++ %>
+    <% end %>
+  </div>
+
+  <div class="col-md-4">
+    <% index = 0 %>
+    <% for page in @getCollection("posts").toJSON() : %>
+    <% if (index % 3 == 2):%>
+
+    <article class="thumbnail">
+      <img src="http://placehold.it/200x150" alt="..." />
+      <div class="caption">
+        <h3><%= page.title %></h3>
+        <p>...</p>
+        <p><a href="<%= page.url %>" class="btn btn-primary" role="button">Lire >></a></p>
+      </div>
+    </article>
+
+    <% end %>
+    <% index++ %>
+    <% end %>
+  </div>
+
+</div>
+

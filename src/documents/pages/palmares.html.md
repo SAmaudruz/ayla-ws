@@ -1,6 +1,6 @@
 ---
 title: "Palmares"
-layout: "default"
+layout: "page"
 ---
 
 Dates               | Evénement        | Lieu                                 | Voie/Bloc  | Catégorie | Résultat
