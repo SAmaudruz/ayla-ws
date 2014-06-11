@@ -5,26 +5,46 @@ layout: default
 <%- @partial('lightbox') %>  
 
 <div class="container">
-  <div class="row">
-    <div class="col-lg-12">
-			<h1><%= @document.title %></h1>
+  <div class=row">
+    <div class="col-md-12">
+		  <h1><%= @document.title %></h1>
       <p><span class="glyphicon glyphicon-time"></span> Posted on August 24, 2013 at 9:00 PM</p>
-      <img src="http://placehold.it/900x300" class="img-responsive">
-      <hr/>
-			<%- @content %>
-
+      <img src="/images/<%= @document.basename %>/hero.jpg" class="img-responsive">
+      <%- @content %>
+    </div>
+  </div>
+  <hr/>
+  <div class=row">
+    <div class="col-md-12">
       <div id="links">
           <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
-              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 75, h: 75 }) %>" alt="Saxon">
+              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
           </a>
-          <a href="/images/hero.jpg" title="Pierre du Moelle" data-gallery>
-              <img src="<%= @getThumbnail("/images/hero.jpg", { w: 75, h: 75 }) %>" alt="Apple">
+          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
+              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
           </a>
-          <a href="http://placehold.it/900x300" title="Orange" data-gallery>
-              <img src="http://placehold.it/75x75" alt="Orange">
+          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
+              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
+          </a>
+          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
+              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
+          </a>
+          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
+              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
+          </a>
+          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
+              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
+          </a>
+          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
+              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
+          </a>
+          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
+              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
+          </a>
+          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
+              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
           </a>
       </div>
-
     </div>
   </div>
 </div>

@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= @getPreparedTitle() %></title>
 
-    <link href="/bootstrap/css/readable.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/bootstrap/css/amelia.min.css" >
     <link rel="stylesheet" href="/blueimp/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="/blueimp/css/bootstrap-image-gallery.min.css">
+    <link rel="stylesheet" href="/custom/css/style.css" >
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,7 +20,7 @@
   </head>
   <body>
     <%- @partial('navbar') %>
-    <hr><hr>
+    <%- @partial('jumbotron') %>
     <%- @content %>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
