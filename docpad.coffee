@@ -69,6 +69,18 @@ docpadConfig = {
     posts: ->
       @getCollection("html").findAllLive({relativeOutDirPath: 'posts'})
 
+  # Plugins 
+  # ===============
+  plugins:
+    associatedfiles:
+        # The paths for the associated files.
+        associatedFilesPath: 'images'
+
+        # Whether to use relative base paths for the document. This would
+        # use associated-files/subfolder/myarticle/image.jpg instead of
+        # associated-files/myarticle/image.jpg.
+        useRelativeBase: false
+
 }
 
 # Export the DocPad Configuration

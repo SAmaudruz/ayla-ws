@@ -17,33 +17,11 @@ layout: default
   <div class=row">
     <div class="col-md-12">
       <div id="links">
-          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
-              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
-          </a>
-          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
-              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
-          </a>
-          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
-              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
-          </a>
-          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
-              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
-          </a>
-          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
-              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
-          </a>
-          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
-              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
-          </a>
-          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
-              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
-          </a>
-          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
-              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
-          </a>
-          <a href="/images/Saxon.jpg" title="Saxon" data-gallery>
-              <img src="<%= @getThumbnail("/images/Saxon.jpg", { w: 120, h: 80 }) %>" alt="Saxon">
-          </a>
+      <% for image in @getDocument().getAssociatedFiles().toJSON(): %>
+        <a href="<%= image.url %>" data-gallery>
+          <img src="<%= @getThumbnail(image.url, { w: 120, h: 80 }) %>" />
+        </a>
+      <% end %>
       </div>
     </div>
   </div>
