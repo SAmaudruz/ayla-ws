@@ -1,7 +1,8 @@
 ```
 title: Climbania 2014 - Genève Bloc
 layout: post
-tags: ['climbmania', 'contest', 'genève escalade']
+shortText: Et voilà la saison Climbania qui recommence
+
 ```
 [Climbmania]: http://www.climbmania.ch "Climbmania"
 [Arthur]: https://www.facebook.com/arthur.veenhuys "Arthur Veenhuys"

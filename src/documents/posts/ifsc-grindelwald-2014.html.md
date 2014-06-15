@@ -1,7 +1,8 @@
 ```
 title: IFSC Grindelwad
 layout: post
-tags: ['dummyTagtoShowHowRelatedPluginMatchesPostsWithTheSameTag']
+shortText: Sean McColl, l'idôle d'Ayla est là.
 ```
 
-Etrange ce monde de l'escalade...
+Texte et photo arrivent...
+

@@ -1,7 +1,7 @@
 ```
 title: Salewa Rockshow Saxon Calling 2014
 layout: post
-tags: ['dummyTagtoShowHowRelatedPluginMatchesPostsWithTheSameTag']
+shortText: Saleva cherche grimpeurs sympa.
 ```
 
-Etrange ce monde de l'escalade...
+Bientôt du texte et des photos.

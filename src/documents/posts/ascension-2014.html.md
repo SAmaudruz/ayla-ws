@@ -1,7 +1,7 @@
 ```
 title: Ascension 2014
 layout: post
-tags: ['chamonix', 'geneve escalade']
+shortText: Chamonix-Annecy-Chamonix, oui on préfère la montagne.
 ```
 
 Avec le temps des week-ends prolongés vient le temps des dilemnes... J'aime planifier, regarder les cartes, lire les topos et imaginer le week-end parfait. Alors, quelques jours avant le départ je tâte toujours le terrain en posant quelques questions anodines.
